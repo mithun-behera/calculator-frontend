@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api";
+const API_URL = "https://calculator-backend-hsho.onrender.com/api";
 
 const calculate = (data) => {
   return axios.post(`${API_URL}/calculate`, data);
